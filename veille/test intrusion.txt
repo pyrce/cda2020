@@ -1,0 +1,36 @@
+méthode dévaluation de la sécurité d'in systeme d'information ou d'un réseau informatique
+
+analyse l'infrastructure d'un réseau
+se met dans la peau de l'attaquant et cherche des failles exploitables afin d'avoir un plan d'action pour empécher ses failles
+methodologie
+
+reconnaisance : récolte  toutes les informations open sources utiles  de la cible
+
+mapping : listes toutes les fonctionnailté de la cible. Permet de voir les élements les plus critiques et les plus exposé
+
+découverte : recherche les vulnérabiltié via des recherche manuelles complementé avec des outils automatisé
+
+exploitation : exploite les failles indentifé et mesure leur impacts
+
+type de tests
+
+
+plateforme web : rechercher des vulnérabilités liées à la configuration des serveurs
+
+Applications mobiles
+	L’analyse statique  extraire des éléments tentatives de reverse engineering
+	L’analyse dynamique rechercher des vulnérabilités sur l’application pendant qu’elle fonctionne sur un appareil (runtime), 
+par exemple pour contourner des contrôles ou extraire des données en mémoire vive
+
+Objets connectés : rechercher des vulnérabilités sur l’ensemble des couches de l’écosystème
+
+
+Infrastructure et réseaux : scanner  les IPs publiques de l’entreprise ainsi que les services exposés  consistent à scanner les IPs publiques 
+de l’entreprise ainsi que les services exposés en ligne, 
+dans le but d’identifier des failles liées à la configuration des services ainsi qu’à l’architecture des systèmes d’exploitation
+
+Ingénierie sociale
+tester les réactions des équipes face aux tentatives de phishing, d’attaques téléphoniques et d’intrusion physique
+
+Un test d’intrusion permet aussi de faire évoluer certaines pratiques, de mettre en place de nouveaux processus permettant de renforcer la sécurité, 
+et d’améliorer le niveau de vigilance de l’entreprise face aux risques
