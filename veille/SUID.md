@@ -21,3 +21,10 @@ Ils possèdent les droits suivant : lecture , ecriture, execution, droits spéci
 Sur les fichiers les droits sont noté soit par des lettres (r,w,x) soit par des chiffres (0 à 7)
 
 Les utilisateurs normaux ont un SUID >100 >60000. Les utilisaterus système ont SUID >1000, 0 etant celui de root.
+
+Example: 
+
+```bash
+drwxr-xr-x 2 ludovic users 4096 avr 24 19:10 theme actuel gnome
+-rw-r–r– 1 ludovic users 11518 jui 19 01:58 tuxdetourer.png
+```
