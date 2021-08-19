@@ -56,13 +56,13 @@ Pour lire efficacement  :
 - on peut n'afficher que la fin du fichier:
 
 ```shell
-tail -20 /var/log/messages
+tail -n 20 /var/log/messages
 ```
 
 Ou bien chercher avec grep :
 
 ```shell
-grep -r "mail@malekal.com" /var/log/*
+grep -r "blog.thm" /var/log/*
 ```
 
 ## Chercher au moins 1 trace de vos attaques grâce aux logs concernant l'activité 'blog
