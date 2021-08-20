@@ -9,3 +9,4 @@ Le fonctionnement général d'un buffer overflow est de faire crasher un program
 ## Vulagrisation
 
 le dépassement de mémoire permet  d'exécuter du code arbitraire sur la machine où tourne l'application vulnérable
+L'intérêt de ce type d'attaque est qu'il ne nécessite pas -le plus souvent- d'accès au système, ou dans le cas contraire, un accès restreint suffit
